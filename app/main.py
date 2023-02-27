@@ -15,3 +15,4 @@ def cache(func: Callable) -> None:
         return storage[args]
 
     return wrapper
+#
